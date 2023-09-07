@@ -1,0 +1,41 @@
+    .jumbotron {
+        background-image: url('../images/hero_main.png');
+        background-size: cover;
+        background-position: center;
+        color: #fff; /* Set text color to ensure readability */
+		height: 800px;
+		border-top-left-radius: 0rem;
+		border-top-right-radius: 0rem;
+		border-bottom-right-radius: 0rem;
+		border-bottom-left-radius: 0rem;
+    }
+	
+	@media (max-width: 800px) {
+		#flagCol{display:none}
+		#titleBk{background-color:#c20000;}
+		#nav-brand{font-size:30px;}
+	}
+	
+	@media (max-width: 800px) {
+		#pixRow{display:none}
+		#title_logo{width:50px}
+	}
+	@media (min-width: 800px) {
+		#nav-brand{font-size:40px;}
+	}
+	
+	
+	
+	
+	.btn-xlarge {
+    padding: 18px 58px;
+    font-size: 30px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+	}
+	
+	section.jumbotron {
+		margin-bottom:0rem;
+	}
