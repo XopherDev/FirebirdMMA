@@ -42,4 +42,13 @@
 
 	footer.footerInfo {
 		background-color:rgb(65, 65, 65);
+		padding-top:20px;
+		color:white;
+	}
+
+	.footerHeader {
+		font-family:Anton;
+		color:rgb(0, 0, 0);
+		font-size:2em;
+		text-align:center;
 	}
