@@ -39,3 +39,7 @@
 	section.jumbotron {
 		margin-bottom:0rem;
 	}
+
+	footer.footerInfo {
+		background-color:rgb(65, 65, 65);
+	}

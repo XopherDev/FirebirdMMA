@@ -19,44 +19,46 @@
 </head>
 <body>
     <!-- Your content goes here -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	
-	<div style="background-color:#c20000;width:100%;position:relative;top:20px;overflow:visible;padding:0px;">
-		<div class="row" style="width:100%;flex-wrap:nowrap;margin-right:0px;margin-left:0px;">
-			<div class="col-sm-4" id="titleBk">
-			  <a class="navbar-brand" href="./" id="nav-brand" style="font-family:Anton;">
-			  <!--<img src="./images/title_logo.png" border="0" alt="FireBird MMA" id="title_logo">-->FireBird MMA
-			  </a>
-			</div>
-			<div id="flagCol" class="col-sm-4" style="text-align:center;"><img src="./images/small_flag.png" border="0" /></div>
-			<div class="col-sm-4" style="text-align:right;">		  
-			  
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-				  <li class="nav-item">
-					<a class="nav-link" style="color:white;" href="./classes">Classes</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" style="color:white;" href="./membership">Membership</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" style="color:white;" href="./team">Our Team</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" style="color:white;" href="./signup">Join Now</a>
-				  </li>
-				</ul>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		
+		<div style="background-color:#c20000;width:100%;position:relative;top:20px;overflow:visible;padding:0px;">
+			<div class="row" style="width:100%;flex-wrap:nowrap;margin-right:0px;margin-left:0px;">
+				<div class="col-sm-4" id="titleBk">
+				<a class="navbar-brand" href="./" id="nav-brand" style="font-family:Anton;">
+				<!--<img src="./images/title_logo.png" border="0" alt="FireBird MMA" id="title_logo">-->FireBird MMA
+				</a>
 				</div>
-			  
+				<div id="flagCol" class="col-sm-4" style="text-align:center;"><img src="./images/small_flag.png" border="0" /></div>
+				<div class="col-sm-4" style="text-align:right;">		  
+				
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" style="color:white;" href="./classes">Classes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" style="color:white;" href="./membership">Membership</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" style="color:white;" href="./team">Our Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" style="color:white;" href="./signup">Join Now</a>
+					</li>
+					</ul>
+					</div>
+				
+				</div>
 			</div>
 		</div>
-	  </div>
-	  
-	</nav>
+		
+		</nav>
+	</header>
 	
 	<section class="jumbotron text-center">
 		<div class="container" style="max-width:1640px;">
@@ -98,7 +100,10 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-5" style="text-align:center;">
-					<img src="./images/fighter.png" border="0" width="300"	/><br />
+					<img alt="Joey Mantaneo"
+							class="lazy"
+							data-src="./images/fighter.png" 
+							width="300" /><br />
 				</div>
 				<div class="col-sm-7">
 					<h1 style="color:#f6d300;">Welcome to FireBird MMA</h1>
@@ -116,10 +121,23 @@
 	
 	<section style="background-color:black;">
 		<div class="container">
-			<div class="row" style="font-family:Anton;color:white;font-size:3.5em;text-align:center;">
+			<div class="row" style="font-family:Anton;color:white;font-size:3.5em;text-align:center;font-style:italic;">
 			
 				<div class="col-sm-3"></div>
-				<div class="col-sm-6">I am a warrior not because I always win but because I will always fight.</div>
+				<div class="col-sm-6">&quot;I am a warrior not because I always win but because I will always fight.&quot;</div>
+				<div class="col-sm-3"></div>
+					
+			</div>
+		</div>
+	</section>
+
+	
+	<section style="background-color:white;">
+		<div class="container">
+			<div class="row" style="font-family:Anton;color:white;font-size:3.5em;text-align:center;font-style:italic;">
+			
+				<div class="col-sm-3"></div>
+				<div class="col-sm-6">This area for contact info</div>
 				<div class="col-sm-3"></div>
 					
 			</div>
@@ -127,6 +145,33 @@
 	</section>
 
 
+	
+	<footer class="footerInfo">
+		<section>
+			<div class="container">
+				<div class="row" style="font-family:Anton;color:rgb(0, 0, 0);font-size:3.5em;text-align:center;font-style:italic;">
+				
+					<div class="col-sm-4">
+						<img alt="FireBird Logo"
+								class="lazy"
+								data-src="images/firebird_logo_400.png"
+								width="200" />
+					</div>
+					<div class="col-sm-4">
+						Address info
+					</div>
+					<div class="col-sm-4">
+						Quick Links
+					</div>
+						
+				</div>
+			</div>
+		</section>
+	</footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.4/dist/lazyload.min.js"></script>
+	<script src="scripts/script.js"></script>
 
 </body>
 </html>
