@@ -1,0 +1,15 @@
+{
+    "web":{
+        "rules":[
+            "path-suffix-nocase(/box.json) -> set-error(404)",
+            "path-suffix-nocase(hidden.js) -> set-error(404)",
+            "path(/sitemap.xml) -> rewrite(/sitemap.cfm)",
+            "path(/classes) -> rewrite(/classes.html)",
+            "path(/membership) -> rewrite(/membership.html)",
+            "path(/team) -> rewrite(/team.html)",
+            "path(/signup) -> rewrite(/signup.html)",
+            "disallowed-methods(trace)"
+        ],
+        "rulesFile":"../secure-rules.json"
+    }
+}
