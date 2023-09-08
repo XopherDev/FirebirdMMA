@@ -1,4 +1,5 @@
 {
+    "name":"firebirdmma",
     "web":{
         "rules":[
             "path-suffix-nocase(/box.json) -> set-error(404)",
