@@ -1,3 +1,8 @@
+<!---
+    This is the primary admin area that generates the index page and the interior pages
+    for the website. The process simply creates the page or overwrites if needed.
+  --->
+
 <h1>
     Use this to generate the site pages.
 </h1>
