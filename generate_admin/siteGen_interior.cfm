@@ -28,6 +28,9 @@
         fileContent = replace(fileContent, "[SITE_INT_BANNER_NAME]", outputBannerName);
         fileContent = replace(fileContent, "[[SITE_INT_CONTENT]", outputContent);
 
+    // Copy to backup before writing
+    fileCopy( expandPath("../#makeFilename#"), expandPath("../backup_files/#makeFilename#") );
+
         // Generate the file name
         fileWrite(expandPath("../#makeFilename#"), fileContent, "utf-8" );
 

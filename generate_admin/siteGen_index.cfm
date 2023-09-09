@@ -8,6 +8,9 @@
     // The html file here is a basic HTML file. It is necessary.
     fileContent = fileRead(expandPath("./siteGenTemplate_index.html"), "utf-8");
 
+    // Copy to backup before writing
+    fileCopy(expandPath("../#makeFilename#"), expandPath("../backup_files/#makeFilename#"));
+
     fileWrite(expandPath("../#makeFilename#"), fileContent, "utf-8" );
 
 </cfscript>
