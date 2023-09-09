@@ -3,7 +3,7 @@
     
     fileContent = fileRead(expandPath("./siteGenTemplate_index.html"), "utf-8");
 
-    fileWrite(expandPath("./#makeFilename#"), fileContent, "utf-8" );
+    fileWrite(expandPath("../#makeFilename#"), fileContent, "utf-8" );
 
 </cfscript>
 

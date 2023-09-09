@@ -20,9 +20,9 @@
         fileContent = replace(fileContent, "[SITE_INT_BANNER_NAME]", outputBannerName);
         fileContent = replace(fileContent, "[[SITE_INT_CONTENT]", outputContent);
 
-        fileWrite(expandPath("./#makeFilename#"), fileContent, "utf-8" );
+        fileWrite(expandPath("../#makeFilename#"), fileContent, "utf-8" );
 
-        writeOutput("#makeFilename# is created.")
+        writeOutput("#makeFilename# is created.<br />")
     }
 
 </cfscript>
@@ -31,5 +31,5 @@
 
 
 <cfoutput >
-    The interior files have been created
+    <p>The interior files have been created</p>
 </cfoutput>

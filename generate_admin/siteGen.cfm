@@ -7,4 +7,4 @@
     <li><a href="siteGen_interior.cfm" target="_new">Generate the interior pages</a></li>
 </ul>
 
-<p><a href="./" target="_new">Back to the site</a></p>
+<p><a href="../" target="_new">Back to the site</a></p>
