@@ -1,0 +1,53 @@
+{
+    "classes.html": {
+      "title": "Classes you can expect at FireBird MMA",
+      "banner_name": "Classes",
+      "content": "<h1 style='color:#f6d300;'>See the classes we have to offer</h1>
+                <p style='color:white;'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                anim id est laborum.
+                </p>"
+      },
+
+    "membership.html": {
+      "title": "Membership has its privleges at FireBird MMA",
+      "banner_name": "Membership",
+      "content": "<h1 style='color:#f6d300;'>We have a great membership plan for you</h1>
+      <p style='color:white;'>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+      anim id est laborum.
+      </p>"
+      },
+
+    "team.html": {
+      "title": "Meet the team here at FireBird MMA",
+      "banner_name": "Meet The Team",
+      "content": "<h1 style='color:#f6d300;'>Meet our great intructors</h1>
+      <p style='color:white;'>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+      anim id est laborum.
+      </p>"
+      },
+
+    "signup.html": {
+      "title": "Sign up today to join our class and become a warrior",
+      "banner_name": "Join Today",
+      "content": "<h1 style='color:#f6d300;'>Ready to join?</h1>
+      <p style='color:white;'>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+      anim id est laborum.
+      </p>"
+      }
+}
