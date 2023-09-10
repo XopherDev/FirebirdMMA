@@ -11,9 +11,12 @@
     }
 	
 	@media (max-width: 800px) {
-		#flagCol{display:none}
+		/*#flagCol{display:none}*/
 		#titleBk{background-color:#c20000;}
 		#nav-brand{font-size:30px;}
+	}
+	@media (max-width: 576px) {
+		#flagCol{display:none;}
 	}
 	
 	@media (max-width: 800px) {
@@ -22,6 +25,13 @@
 	}
 	@media (min-width: 800px) {
 		#nav-brand{font-size:40px;}
+	}
+	/* @media (min-width: 992px) {
+		div#dropdown-menu{position:absolute;}
+	} */
+
+	@media (min-width: 400px) and (max-width:992px) {
+		div#dropdown-menu{z-index:20;position:relative;margin-left:-25px;}
 	}
 	
 	
@@ -56,6 +66,16 @@
 	.form-control {
 		border-color: black;
 	}
+
+	div.headerOffsetArea {
+		background-color:#c20000;
+		width:100%;
+		position:relative;
+		top:20px;
+		overflow:visible;
+		padding:0px;
+	}
+
 
 /* START Scroll to top button */
 	#myBtn {
