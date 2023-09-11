@@ -34,6 +34,9 @@
 		div#dropdown-menu{z-index:20;position:relative;margin-left:-25px;}
 	}
 	
+	@media (min-width: 370px)  {
+		div#dropdown-menu{z-index:20;position:relative;margin-left:-60px;}
+	}
 	
 	
 	
