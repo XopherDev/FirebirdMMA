@@ -9,6 +9,17 @@
 		border-bottom-right-radius: 0rem;
 		border-bottom-left-radius: 0rem;
     }
+
+    div#interior_header {
+        background-image: url('../images/int_header_bk.png');
+        background-size: cover;
+        background-position: center;
+        color: #000000; /* Set text color to ensure readability */
+		border-top-left-radius: 0rem;
+		border-top-right-radius: 0rem;
+		border-bottom-right-radius: 0rem;
+		border-bottom-left-radius: 0rem;
+    }
 	
 	@media (max-width: 800px) {
 		/*#flagCol{display:none}*/
@@ -29,13 +40,13 @@
 	/* @media (min-width: 992px) {
 		div#dropdown-menu{position:absolute;}
 	} */
-
-	@media (min-width: 400px) and (max-width:992px) {
-		div#dropdown-menu{z-index:20;position:relative;margin-left:-25px;}
-	}
 	
 	@media (min-width: 370px)  {
 		div#dropdown-menu{z-index:20;position:relative;margin-left:-60px;}
+	}
+
+	@media (min-width: 400px) and (max-width:2500px) {
+		div#dropdown-menu{z-index:20;position:absolute;margin-left:-25px;}
 	}
 	
 	
@@ -101,3 +112,7 @@
 		background-color: #555; /* Add a dark-grey background on hover */
 	  }
 /* END Scroll to top button */
+
+body {
+	background-color: #000000;;
+}
